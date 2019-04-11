@@ -35,7 +35,7 @@
 				<div class="span1">
 					<select name="up_year">
 					  <option>Año</option>
-					  <?php for ($i=2000; $i <= 2015; $i++) { ?>
+					  <?php for ($i=2000; $i <= 2019; $i++) { ?>
 						<option value="<?php echo $i; ?>"><?php echo $i; ?></option>
 					  <?php } ?>
 					</select>
@@ -49,7 +49,7 @@
 				<div class="span1">
 					<select name="down_day">
 					  <option>Dia</option>
-					  <?php for ($i=0; $i <= 31; $i++) { ?>
+					  <?php for ($i=1; $i <= 31; $i++) { ?>
 						<option value="<?php echo $i; ?>"><?php echo $i; ?></option>
 					  <?php } ?>
 					</select>
@@ -74,7 +74,7 @@
 				<div class="span1">
 					<select name="down_year">
 					  <option>Año</option>
-					  <?php for ($i=2000; $i <= 2013; $i++) { ?>
+					  <?php for ($i=2000; $i <= 2019; $i++) { ?>
 						<option value="<?php echo $i; ?>"><?php echo $i; ?></option>
 					  <?php } ?>
 					</select>
