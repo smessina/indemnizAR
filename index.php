@@ -8,7 +8,7 @@ if(isset($_GET['p']) && $_GET['p'] != "home") {
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Der. del Trabajo | Liquidacion</title>
+    <title>IndemnizAR | Calculá tu indemnización por despido</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes" />
